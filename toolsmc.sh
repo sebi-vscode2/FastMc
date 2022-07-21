@@ -55,7 +55,7 @@ echo "Write The name of the server"
 read name
 sudo mkdir $name
 cd $name
-sudo touch file.py
+wget -q 
 exit 1
 fi
 
