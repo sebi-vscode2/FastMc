@@ -7,6 +7,6 @@ ToolsMc is a Bash script that can download a server so you don't need to setup a
 # Install 
 To download ToolsMc run this code
 <br>
-<code> . <(wget https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/install.sh)</code>
+<code> . <(wget -O- https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/install.sh)</code>
 <br>
 the file will be downloaded /whereyouare/toolsmc
