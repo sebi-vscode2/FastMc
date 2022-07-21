@@ -30,6 +30,7 @@ fi
 
 if [ $a = 2 ];
 then
+clear
 echo "Which library do you want to use?"
 echo "1. Vanilla"
 echo "2. Bukkit"
@@ -46,7 +47,9 @@ echo "1. 1.19"
 echo "until a new update is released we will only show 1.19"
 read v 
 fi
-if [ $v = 1]
+if [ $v = 1];
+then
 Downloading!
+
 
 
