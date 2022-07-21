@@ -7,5 +7,5 @@ sudo chmod +777 ./toolsmc.sh
 mv ./toolsmc.sh toolsmc
 clear
 echo "Toolsmc is now installed"
-echo "Now run toolsmc.sh!" 
+echo "Now run toolsmc/toolsmc.sh!" 
 

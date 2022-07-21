@@ -42,6 +42,11 @@ read version
 if [ $version = 1 ];
 then 
 echo "What version do you want to use?"
- 
+echo "1. 1.19"
+echo "until a new update is released we will only show 1.19"
+read v 
 fi
+if [ $v = 1]
+Downloading!
+
 
