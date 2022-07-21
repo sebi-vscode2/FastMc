@@ -9,4 +9,4 @@ To download ToolsMc run this code
 <br>
 <code> . <(wget -O- https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/install.sh)</code>
 <br>
-the file will be downloaded /whereyouare/toolsmc
+the file will be downloaded in /usr/bin for compatibility purposes
