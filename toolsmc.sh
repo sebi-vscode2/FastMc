@@ -47,9 +47,15 @@ echo "1. 1.19"
 echo "until a new update is released we will only show 1.19"
 read v 
 fi
-if [ $v = 1];
+if [ $v = 1 ];
 then
-Downloading!
-
-
+echo "Downloading!"
+cd /home/servers/vanilla
+echo "Write The name of the server"
+read name
+sudo mkdir $name
+cd $name
+sudo touch file.py
+exit 1
+fi
 
