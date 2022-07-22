@@ -61,7 +61,7 @@ sudo wget -q https://github.com/sebi-vscode2/ToolsMc/raw/master/vanilla/server.j
 echo "Done!"
 echo "Saved in /home/servers/vanilla/$name"
 echo "To run it go to /home/servers/vanilla/$name and run java -jar server.jar"
-fi
 echo "first it will crash and ask you to accept the eula ( /home/servers/vanilla/$name/eula.txt ) "
 echo "then you can start the server with java -jar server.jar"
+exit 1
 fi
