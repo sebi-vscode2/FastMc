@@ -23,7 +23,7 @@ if  [ $a = 1 ];
 then 
 echo "Opening on github"
 xdg-open https://github.com/sebi-vscode2/ToolsMc
-exit 0
+exit 1
 fi
  
 #if for server

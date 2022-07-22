@@ -13,3 +13,5 @@ the file will be downloaded in /usr/bin for compatibility purposes.
 
 # Why there's only a folder for vanilla servers?
 It's because minecraft only stores the latest version so if you want to play 1.19 when 1.20 is released you can`t download the file.
+
+
