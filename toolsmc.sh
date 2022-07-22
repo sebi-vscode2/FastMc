@@ -1,6 +1,6 @@
 #!/bin/bash
 # Welcome and help
-
+clear
 echo "Welcome To ToolsMc!"
 echo "Write 1, 2 or 3 to navigate on the menu!"
 echo "What do you want to do?"
@@ -47,15 +47,20 @@ echo "1. 1.19"
 echo "until a new update is released we will only show 1.19"
 read v 
 fi
+#if after selecting version
 if [ $v = 1 ];
 then
-echo "Downloading!"
 cd /home/servers/vanilla
 echo "Write The name of the server"
 read name
 sudo mkdir $name
 cd $name
-wget -q 
-exit 1
+echo "Downloading"
+echo "We're setting up everything!"
+sudo wget -q https://github.com/sebi-vscode2/ToolsMc/raw/master/vanilla/server.jar
+echo "Done!"
+echo "Saved in /home/servers/vanilla/$name"
+echo "first it will crash and ask you to accept the eula ( /home/servers/vanilla/$name/eula.txt ) "
+
 fi
 

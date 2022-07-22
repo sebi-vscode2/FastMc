@@ -13,4 +13,3 @@ sudo rm prepare.sh
 clear
 echo "Toolsmc is now installed"
 echo "Now run toolsmc but first reload the terminal" 
-
