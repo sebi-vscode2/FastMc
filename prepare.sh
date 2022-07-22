@@ -16,7 +16,7 @@ wget -O spigot.sh  https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master
 sudo chmod +777 /home/toolsmc/paper.sh
 sudo chmod +777 /home/toolsmc/spigot.sh
 sudo chmod +777 /home/toolsmc/bukkit.sh
-sudo ln -s /home/toolsmc/bukkit.sh /usr/bin/bukkit
-sudo ln -s /home/toolsmc/paper.sh /usr/bin/paper
-sudo ln -s /home/toolsmc/spigot.sh /usr/bin/spigot
+sudo ln -s /home/toolsmc/bukkit.sh /usr/local/bin/bukkit
+sudo ln -s /home/toolsmc/paper.sh /usr/local/bin/paper
+sudo ln -s /home/toolsmc/spigot.sh /usr/local/bin/spigot
 
