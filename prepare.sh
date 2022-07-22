@@ -6,9 +6,11 @@ sudo mkdir vanilla
 sudo mkdir paper
 sudo mkdir spigot
 sudo mkdir bukkit
-wget  https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/bukkit.sh
-wget  https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/paper.sh
-wget  https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/spigot.sh
-cd ..
+# files for the correct function of toolsmc
+wget  https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/bukkit.sh > bukkit.sh
+wget  https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/paper.sh > paper.sh
+wget  https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/spigot.sh > spigot.sh
+cd /home
 sudo mkdir toolsmc
+cd toolsmc
 export PATH=$PATH:/home/toolsmc
