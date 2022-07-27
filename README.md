@@ -20,6 +20,7 @@ It's because minecraft only stores the latest version so if you want to play 1.1
 
 # Things that i want to add:
   Bukkit, vanilla, spigot
+ <br>
   fast plugin setup
 # Things added and when (Changelog)
   7/26/22:
