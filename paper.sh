@@ -21,8 +21,8 @@ read name
 sudo mkdir $name
 cd $name
 echo "Downloading Paper 1.19"
-sudo wget -q https://papermc.io/api/v1/paper/1.19/download 
-sudo chmod +777 paper.jar
+sudo wget  https://api.papermc.io/v2/projects/paper/versions/1.19/builds/81/downloads/paper-1.19-81.jar
+sudo chmod +777 paper-1.19-81.jar
 echo "Done"
 echo "Saved in /home/servers/paper/$name"
 echo "First it will crash, and it will ask you to accept the EULA.

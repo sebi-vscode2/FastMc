@@ -58,7 +58,7 @@ cd $name
 echo "Downloading"
 echo "We're setting up everything!"
 sudo wget -q https://github.com/sebi-vscode2/ToolsMc/raw/master/vanilla/server.jar
-chmod +777 server.jar
+sudo chmod +777 server.jar
 echo "Done!"
 echo "Saved in /home/servers/vanilla/$name"
 echo "To run it go to /home/servers/vanilla/$name and run java -jar server.jar"
@@ -78,5 +78,5 @@ if [ $version = 4 ];
 then
 clear
 cd /home/sebastian/ToolsMc
-sudo paper
+sudo bash ./paper.sh
 fi
