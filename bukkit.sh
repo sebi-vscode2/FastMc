@@ -21,7 +21,7 @@ read name
 sudo mkdir $name
 cd $name
 echo "Downloading Bukkit 1.19"
-sudo wget -q https://download.getbukkit.org/craftbukkit/craftbukkit-1.19.jar
+sudo wget https://download.getbukkit.org/craftbukkit/craftbukkit-1.19.jar
 sudo chmod +777 craftbukkit-1.19.jar
 echo "Done"
 echo "Saved in /home/servers/bukkit/$name"

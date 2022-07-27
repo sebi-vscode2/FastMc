@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 echo "Which version do you want to use?"
 echo "1. 1.19"
 echo "2. 1.18"
@@ -13,7 +12,7 @@ echo "9. 1.11.2"
 echo "10. 1.10.2"
 echo "11. 1.9"
 echo "12. 1.8"
-if [ $v = 1 ];
+if [ "$v" = 1 ];
 then
 cd /home/servers/spigot
 echo "Which name do you want for your server?"
@@ -25,7 +24,7 @@ sudo wget -q https://download.getbukkit.org/spigot/spigot-1.19.jar
 sudo chmod +777 spigot-1.19.jar
 echo "Done"
 echo "Saved in /home/servers/spigot/$name"
-echo "First it will crash, and it will ask you to accept the EULA.
+echo "First it will crash, and it will ask you to accept the EULA."
 exit 1
 fi
 if [ $v = 2 ];
@@ -40,10 +39,10 @@ wget -q https://download.getbukkit.org/spigot/spigot-1.18.jar
 sudo chmod +777 spigot-1.18.jar
 echo "Done"
 echo "Saved in /home/servers/spigot/$name"
-echo "First it will crash, and it will ask you to accept the EULA.
+echo "First it will crash, and it will ask you to accept the EULA."
 exit 1
 fi
-if [ $v = 3 ];
+if [ "$v" = 3 ];
 then
 cd /home/servers/spigot
 echo "Which name do you want for your server?"
@@ -73,7 +72,7 @@ echo "Saved in /home/servers/spigot/$name"
 echo "First it will crash, and it will ask you to accept the EULA.
 exit 1
 fi
-if [ $v = 5 ];
+if [ "$v" = 5 ];
 then
 cd /home/servers/spigot
 echo "Which name do you want for your server?"
@@ -103,7 +102,7 @@ echo "Saved in /home/servers/spigot/$name"
 echo "First it will crash, and it will ask you to accept the EULA.
 exit 1
 fi
-if [ $v = 7 ];
+if [ "$v" = 7 ];
 then
 cd /home/servers/spigot
 echo "Which name do you want for your server?"
@@ -133,7 +132,7 @@ echo "Saved in /home/servers/spigot/$name"
 echo "First it will crash, and it will ask you to accept the EULA.
 exit 1
 fi
-if [ $v = 9 ];
+if [ "$v" = 9 ];
 then
 cd /home/servers/spigot
 echo "Which name do you want for your server?"
@@ -163,7 +162,7 @@ echo "Saved in /home/servers/spigot/$name"
 echo "First it will crash, and it will ask you to accept the EULA.
 exit 1
 fi
-if [ $v = 11 ];
+if [ "$v" = 11 ];
 then
 cd /home/servers/spigot
 echo "Which name do you want for your server?"

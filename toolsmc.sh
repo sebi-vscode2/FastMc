@@ -48,7 +48,7 @@ echo "until a new update is released we will only show 1.19"
 read v 
 fi
 #if after selecting version
-if [ $v = 1 ];
+if [ "$v" = 1 ];
 then
 cd /home/servers/vanilla
 echo "Write The name of the server"
@@ -66,17 +66,16 @@ echo "first it will crash and ask you to accept the eula ( /home/servers/vanilla
 echo "then you can start the server with java -jar server.jar"
 exit 1
 fi
-if [ $version = 2];
+if [ $version = 2 ];
 then
-sudo bukkit
+sudo bash ./bukkit.sh
 fi
-if [ $version = 3];
+if [ $version = 3 ];
 then
-sudo spigot
+sudo bash ./spigot.sh
 fi
 if [ $version = 4 ];
 then
-clear
 cd /home/sebastian/ToolsMc
 sudo bash ./paper.sh
 fi
