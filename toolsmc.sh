@@ -70,6 +70,10 @@ if [ $version = 2];
 then
 sudo bukkit
 fi
+if [ $version = 3];
+then
+sudo spigot
+fi
 if [ $version = 4 ];
 then
 clear
