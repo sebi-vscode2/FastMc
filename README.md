@@ -1,6 +1,8 @@
 # ToolsMc
 ToolsMc is a powerful minecraft toolkit for servers and on the future for more things!
-
+Version: 0.5.3
+(1 commit = 1 version)
+maybe it could be outdated, in this case please open an issue
 # How does it work?
 ToolsMc is a Bash script that can download a server so you don't need to setup anything!
 
