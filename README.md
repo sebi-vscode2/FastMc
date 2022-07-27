@@ -14,4 +14,9 @@ the file will be downloaded in /usr/local/bin for compatibility purposes.
 # Why there's only a folder for vanilla servers?
 It's because minecraft only stores the latest version so if you want to play 1.19 when 1.20 is released you can`t download the file.
 
-
+# Things that i want to add:
+  Bukkit, vanilla, spigot
+  fast plugin setup
+# Things added and when (Changelog)
+  7/26/22:
+  Added papermc (1.8.8 to 1.19)
