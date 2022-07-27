@@ -66,10 +66,13 @@ echo "first it will crash and ask you to accept the eula ( /home/servers/vanilla
 echo "then you can start the server with java -jar server.jar"
 exit 1
 fi
-
+if [ $version = 2];
+then
+sudo bukkit
+fi
 if [ $version = 4 ];
 then
 clear
 cd /home/sebastian/ToolsMc
-sudo bash ./paper.sh
+sudo paper
 fi
