@@ -58,10 +58,18 @@ cd $name
 echo "Downloading"
 echo "We're setting up everything!"
 sudo wget -q https://github.com/sebi-vscode2/ToolsMc/raw/master/vanilla/server.jar
+chmod +777 server.jar
 echo "Done!"
 echo "Saved in /home/servers/vanilla/$name"
 echo "To run it go to /home/servers/vanilla/$name and run java -jar server.jar"
 echo "first it will crash and ask you to accept the eula ( /home/servers/vanilla/$name/eula.txt ) "
 echo "then you can start the server with java -jar server.jar"
 exit 1
+fi
+
+if [ $version = 4 ];
+then
+clear
+cd /home/sebastian/ToolsMc
+sudo bash ./paper.sh
 fi
