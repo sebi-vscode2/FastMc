@@ -1,7 +1,7 @@
 # ToolsMc
 ToolsMc is a powerful minecraft toolkit for servers and on the future for more things!
 <br>
-Version: 0.6.8
+Version: 0.6.9
 <br>
 (1 commit = 1 version)
 <br>
@@ -25,8 +25,13 @@ It's because minecraft only stores the latest version so if you want to play 1.1
   fast plugin setup
 # Things added and when (Changelog)
   7/26/22:
+  <br>
   Added papermc (1.8.8 to 1.19)
   7/31/22:
+  <br>
  Fixed papermc links doesn't work.
+ <br>
+ Added a video to show how toolsmc work.
  7/i don't remember/22:
- added bungeecord, spigot and finished papermc.
+ <br>
+ Added bungeecord, spigot and finished papermc.
