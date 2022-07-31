@@ -68,14 +68,13 @@ exit 1
 fi
 if [ $version = 2 ];
 then
-sudo bash ./bukkit.sh
+sudo bukkit
 fi
 if [ $version = 3 ];
 then
-sudo bash ./spigot.sh
+sudo spigot
 fi
 if [ $version = 4 ];
 then
-cd /home/sebastian/ToolsMc
-sudo bash ./paper.sh
+sudo paper
 fi
