@@ -1,7 +1,7 @@
 # ToolsMc
 ToolsMc is a powerful minecraft toolkit for servers and on the future for more things!
 <br>
-Version: 0.6.9
+Version: 0.7.1
 <br>
 (1 commit = 1 version)
 <br>
