@@ -1,7 +1,7 @@
 #!/bin/bash
 # Welcome and help
 clear
-echo "Welcome To ToolsMc!"
+echo "Welcome To FastMc!"
 echo "Write 1, 2 or 3 to navigate on the menu!"
 echo "What do you want to do?"
 echo "1. Go to github" 
@@ -22,7 +22,7 @@ clear
 if  [ $a = 1 ];
 then 
 echo "Opening on github"
-xdg-open https://github.com/sebi-vscode2/ToolsMc
+xdg-open https://github.com/sebi-vscode2/FastMc
 exit 1
 fi
  
@@ -57,7 +57,7 @@ sudo mkdir $name
 cd $name
 echo "Downloading"
 echo "We're setting up everything!"
-sudo wget -q https://github.com/sebi-vscode2/ToolsMc/raw/master/vanilla/server.jar
+sudo wget -q https://github.com/sebi-vscode2/FastMc/raw/master/vanilla/server.jar
 sudo chmod +777 server.jar
 echo "Done!"
 echo "Saved in /home/servers/vanilla/$name"
