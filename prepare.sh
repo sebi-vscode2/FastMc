@@ -8,17 +8,17 @@ sudo mkdir spigot
 sudo mkdir bukkit
 # files for the correct function of toolsmc
 cd /home
-sudo mkdir toolsmc
-cd toolsmc
-wget -q -O bukkit.sh  https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/bukkit.sh
-wget -q -O paper.sh   https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/paper.sh
-wget -q -O spigot.sh  https://raw.githubusercontent.com/sebi-vscode2/ToolsMc/master/spigot.sh
+sudo mkdir Fastmc
+cd Fastmc
+wget -q -O bukkit.sh  https://raw.githubusercontent.com/sebi-vscode2/FastMc/master/bukkit.sh
+wget -q -O paper.sh   https://raw.githubusercontent.com/sebi-vscode2/FastMc/master/paper.sh
+wget -q -O spigot.sh  https://raw.githubusercontent.com/sebi-vscode2/FastMc/master/spigot.sh
 clear
-sudo chmod +777 /home/toolsmc/paper.sh
-sudo chmod +777 /home/toolsmc/spigot.sh
-sudo chmod +777 /home/toolsmc/bukkit.sh
-sudo ln -s /home/toolsmc/bukkit.sh /usr/local/bin/bukkit
-sudo ln -s /home/toolsmc/paper.sh /usr/local/bin/paper
-sudo ln -s /home/toolsmc/spigot.sh /usr/local/bin/spigot
+sudo chmod +777 /home/Fastmc/paper.sh
+sudo chmod +777 /home/Fastmc/spigot.sh
+sudo chmod +777 /home/Fastmc/bukkit.sh
+sudo ln -s /home/Fastmc/bukkit.sh /usr/local/bin/bukkit
+sudo ln -s /home/Fastmc/paper.sh /usr/local/bin/paper
+sudo ln -s /home/Fastmc/spigot.sh /usr/local/bin/spigot
 clear
 
