@@ -344,3 +344,19 @@ sudo chmod +777 spigot-1.8.8-R0.1-SNAPSHOT-latest.jar
 fi
 
 fi
+if [ "$1" = "vanilla" ];
+then
+if [ "$2" = "1.19"];
+then
+cd /home/servers/vanilla
+mkdir $3
+cd $3
+sudo wget -q https://github.com/sebi-vscode2/FastMc/raw/master/vanilla/server.jar
+sudo chmod +777 server.jar
+fi
+fi
+
+if [ "$1" = "update"];
+then
+fastupdate
+fi
