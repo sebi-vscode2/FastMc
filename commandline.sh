@@ -356,7 +356,7 @@ sudo chmod +777 server.jar
 fi
 fi
 
-if [ "$1" = "update"];
+if [ "$1" = "update" ];
 then
 fastupdate
 fi
