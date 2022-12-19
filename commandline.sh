@@ -121,6 +121,119 @@ sudo chmod +777 paper-1.8.8-445.jar
 
 fi
 fi
+if [ "$1" = "bukkit" ];
+then
+if [ "$2" = "1.19"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget https://download.getbukkit.org/craftbukkit/craftbukkit-1.19.jar
+sudo chmod +777 craftbukkit-1.19.jar
+fi
+if [ "$2" = "1.18"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://download.getbukkit.org/craftbukkit/craftbukkit-1.18.jar
+sudo chmod +777 craftbukkit-1.18.jar
+fi
+if [ "$2" = "1.17"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://download.getbukkit.org/craftbukkit/craftbukkit-1.17.jar
+sudo chmod +777 craftbukkit-1.17.jar
+fi
+if [ "$2" = "1.16"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.16.1.jar
+sudo chmod +777 craftbukkit-1.16.jar
+fi
+if [ "$2" = "1.15"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.15.2.jar
+sudo chmod +777 craftbukkit-1.15.jar
+fi
+if [ "$2" = "1.14"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.14.4-R0.1-SNAPSHOT.jar
+sudo chmod +777 craftbukkit-1.14.jar
+fi
+if [ "$2" = "1.13"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.13.2.jar
+sudo chmod +777 craftbukkit-1.13.2.jar
+fi
+if [ "$2" = "1.12"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.12.2.jar
+sudo chmod +777 craftbukkit-1.12.2.jar
+fi
+if [ "$2" = "1.11"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.11.2.jar
+sudo chmod +777 craftbukkit-1.11.2.jar
+fi
+if [ "$2" = "1.10"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.10.2-R0.1-SNAPSHOT-latest.jar
+sudo chmod +777 craftbukkit-1.10.2.jar
+fi
+if [ "$2" = "1.9"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.9.4-R0.1-SNAPSHOT-latest.jar
+sudo chmod +777 craftbukkit-1.9.4-RO.1-SNAPSHOT-latest.jar
+fi
+if [ "$2" = "1.18"];
+then
+cd /home/servers
+cd bukkit
+sudo mkdir $3
+cd $3
+sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.8.8-R0.1-SNAPSHOT-latest.jar
+sudo chmod +777 craftbukkit-1.8.8-RO.1-SNAPSHOT-latest.jar
+
+fi
+
+
 
 
 # echo "1. 1.19"
