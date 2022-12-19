@@ -15,7 +15,7 @@ To download FastMc run this code.
 the file will be downloaded in /usr/local/bin for compatibility purposes.
 
 # Why there's only a folder for vanilla servers?
-It's because minecraft only stores the latest version so if you want to play 1.19 when 1.20 is released you can`t download the other version
+Because i tought you can't download old minecraft versions, this will be fixed i the next update.
 # Things added and when (Changelog)
   7/26/22:
   <br>
