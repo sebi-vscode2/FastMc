@@ -172,7 +172,7 @@ sudo mkdir $name
 cd $name
 echo "Downloading Bukkit 1.9"
 sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.9.4-R0.1-SNAPSHOT-latest.jar
-sudo chmod +777 craftbukkit-1.9.4-RO.1-SNAPSHOT-latest.jar
+sudo chmod +777 craftbukkit-1.9.4-R0.1-SNAPSHOT-latest.jar
 echo "Done"
 echo "Saved in /home/servers/bukkit/$name"
 echo "First it will crash, and it will ask you to accept the EULA."
@@ -187,7 +187,7 @@ sudo mkdir $name
 cd $name
 echo "Downloading Bukkit 1.8"
 sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.8.8-R0.1-SNAPSHOT-latest.jar
-sudo chmod +777 craftbukkit-1.8.8-RO.1-SNAPSHOT-latest.jar
+sudo chmod +777 craftbukkit-1.8.8-R0.1-SNAPSHOT-latest.jar
 echo "Done"
 echo "Saved in /home/servers/bukkit/$name"
 echo "First it will crash, and it will ask you to accept the EULA."
