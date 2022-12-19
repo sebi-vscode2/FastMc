@@ -3,8 +3,6 @@ FastMc is a powerful minecraft toolkit for servers and on the future for more th
 <br>
 Version: 0.8.0
 <br>
-(1 commit = 1 version)
-<br>
 maybe it could be outdated, in this case please open an issue
 # How does it work?
 FastMc is a Bash script that can download a server so you don't need to setup anything!
