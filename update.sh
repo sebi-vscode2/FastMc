@@ -1,9 +1,9 @@
 #!/bin/bash
-cd /home/FastMc
-rm bukkit.sh
-rm fastmc.sh
-rm paper.sh
-rm spigot.sh
+rm /home/Fastmc/bukkit.sh
+rm /home/Fastmc/fastmc.sh
+rm /home/Fastmc/paper.sh
+rm /home/Fastmc/spigot.sh
+cd /home/Fastmc
 sudo wget -q https://github.com/sebi-vscode2/FastMc/raw/master/version.txt
 clear
 sudo wget -q  https://raw.githubusercontent.com/sebi-vscode2/FastMc/master/fastmc.sh
