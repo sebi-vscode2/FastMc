@@ -29,4 +29,5 @@ Because i tought you can't download old minecraft versions, this will be fixed i
  <br>
  Added bungeecord, spigot and finished papermc. <br>
  12/19/22: <br>
+ Started creating a argument based script for a wrapper.<b> Coming soon</b>
  
