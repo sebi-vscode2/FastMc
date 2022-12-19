@@ -230,7 +230,7 @@ sudo mkdir $3
 cd $3
 sudo wget -q https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.8.8-R0.1-SNAPSHOT-latest.jar
 sudo chmod +777 craftbukkit-1.8.8-RO.1-SNAPSHOT-latest.jar
-
+fi
 fi
 
 
