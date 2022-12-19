@@ -8,7 +8,7 @@ sudo wget -q https://github.com/sebi-vscode2/FastMc/raw/master/version.txt
 clear
 sudo wget -q  https://raw.githubusercontent.com/sebi-vscode2/FastMc/master/fastmc.sh
 sudo chmod +777 ./fastmc.sh
-sudo ln -s /home/fastmc/fastmc.sh /usr/local/bin/fastmc
+sudo ln -s /home/Fastmc/fastmc.sh /usr/local/bin/fastmc
 sudo wget -q  https://raw.githubusercontent.com/sebi-vscode2/FastMc/master/prepare.sh 
 sudo chmod +777 prepare.sh
 sudo ./prepare.sh
