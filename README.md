@@ -1,9 +1,7 @@
 # FastMc
 FastMc is a powerful minecraft toolkit for servers and on the future for more things!
 <br>
-Version: 0.7.1
-<br>
-(1 commit = 1 version)
+Version: 0.8.0
 <br>
 maybe it could be outdated, in this case please open an issue
 # How does it work?
@@ -21,12 +19,14 @@ It's because minecraft only stores the latest version so if you want to play 1.1
 # Things added and when (Changelog)
   7/26/22:
   <br>
-  Added papermc (1.8.8 to 1.19)
+  Added papermc (1.8.8 to 1.19) <br>
   7/31/22:
   <br>
  Fixed papermc links doesn't work.
  <br>
- Added a video to show how Fastmc work.
+ Added a video to show how Fastmc work. <br>
  7/i don't remember/22:
  <br>
- Added bungeecord, spigot and finished papermc.
+ Added bungeecord, spigot and finished papermc. <br>
+ 12/19/22: <br>
+ 
