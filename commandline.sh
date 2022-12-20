@@ -11,7 +11,7 @@ sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.19/builds/81/do
 sudo chmod +777 paper-1.19-81.jar
 
 fi
-if [ "$2" = "1.18.2" ];
+if [ "$2" = "1.18" ];
 then
 cd /home/servers
 cd paper
@@ -21,7 +21,7 @@ sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/387
 sudo chmod +777 paper-1.18.2-387.jar
 
 fi
-if [ "$2" = "1.17.1" ];
+if [ "$2" = "1.17" ];
 then
 cd /home/servers
 cd paper
@@ -31,7 +31,7 @@ sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.17.1/builds/411
 sudo chmod +777 paper-1.17.1-411.jar
 
 fi
-if [ "$2" = "1.16.5" ];
+if [ "$2" = "1.16" ];
 then
 cd /home/servers
 cd paper
@@ -41,7 +41,7 @@ sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.16.5/builds/794
 sudo chmod +777 paper-1.16.5-794.jar
 
 fi
-if [ "$2" = "1.15.2" ];
+if [ "$2" = "1.15" ];
 then
 cd /home/servers
 cd paper
@@ -51,7 +51,7 @@ sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.15.2/builds/393
 sudo chmod +777 paper-1.15.2-393.jar
 
 fi
-if [ "$2" = "1.14.4" ];
+if [ "$2" = "1.14" ];
 then
 cd /home/servers
 cd paper
@@ -61,7 +61,7 @@ sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.14.4/builds/245
 sudo chmod +777 paper-1.14.4-245.jar
 
 fi
-if [ "$2" = "1.13.2" ];
+if [ "$2" = "1.13" ];
 then
 cd /home/servers
 cd paper
@@ -70,7 +70,7 @@ cd $3
 sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.13.2/builds/657/downloads/paper-1.13.2-657.jar
 sudo chmod +777 paper-1.13.2-657.jar
 fi
-if [ "$2" = "1.12.2" ];
+if [ "$2" = "1.12" ];
 then
 cd /home/servers
 cd paper
@@ -80,7 +80,7 @@ sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.12.2/builds/162
 sudo chmod +777 paper-1.12.2-1620.jar
 
 fi
-if [ "$2" = "1.11.2" ];
+if [ "$2" = "1.11" ];
 then
 cd /home/servers
 cd paper
@@ -90,7 +90,7 @@ sudo wget -q hhttps://api.papermc.io/v2/projects/paper/versions/1.11.2/builds/11
 sudo chmod +777 paper-1.11.2-1106.jar
 
 fi
-if [ "$2" = "1.10.2" ];
+if [ "$2" = "1.10" ];
 then
 cd /home/servers
 cd paper
@@ -100,7 +100,7 @@ sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.10.2/builds/918
 sudo chmod +777 paper-1.10.2-918.jar
 
 fi
-if [ "$2" = "1.9.4" ];
+if [ "$2" = "1.9" ];
 then
 cd /home/servers
 cd paper
@@ -110,7 +110,7 @@ sudo wget -q https://api.papermc.io/v2/projects/paper/versions/1.9.4/builds/775/
 sudo chmod +777 paper-1.9.4-775.jar
 
 fi
-if [ "$2" = "1.8.8" ];
+if [ "$2" = "1.8" ];
 then
 cd /home/servers
 cd paper
@@ -238,7 +238,7 @@ then
 if [ "$2" = "1.19"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 sudo wget -q https://download.getbukkit.org/spigot/spigot-1.19.jar
 sudo chmod +777 spigot-1.19.jar
@@ -246,7 +246,7 @@ fi
 if [ "$2" = "1.18"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://download.getbukkit.org/spigot/spigot-1.18.jar
 sudo chmod +777 spigot-1.18.jar
@@ -255,7 +255,7 @@ fi
 if [ "$2" = "1.17"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://download.getbukkit.org/spigot/spigot-1.17.jar
 sudo chmod +777 spigot-1.17.jar
@@ -264,7 +264,7 @@ fi
 if [ "$2" = "1.16"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://cdn.getbukkit.org/spigot/spigot-1.16.1.jar
 sudo chmod +777 spigot-1.16.1.jar
@@ -273,7 +273,7 @@ fi
 if [ "$2" = "1.15"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://cdn.getbukkit.org/spigot/spigot-1.15.2.jar
 sudo chmod +777 spigot-1.15.2.jar
@@ -282,7 +282,7 @@ fi
 if [ "$2" = "1.14"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://cdn.getbukkit.org/spigot/spigot-1.14.4.jar
 sudo chmod +777 spigot-1.14.4.jar
@@ -291,7 +291,7 @@ fi
 if [ "$2" = "1.13"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://cdn.getbukkit.org/spigot/spigot-1.13.2.jar
 sudo chmod +777 spigot-1.13.2.jar
@@ -300,7 +300,7 @@ fi
 if [ "$2" = "1.12"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://cdn.getbukkit.org/spigot/spigot-1.12.2.jar
 sudo chmod +777 spigot-1.12.2.jar
@@ -309,7 +309,7 @@ fi
 if [ "$2" = "1.11"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://cdn.getbukkit.org/spigot/spigot-1.11.2.jar
 sudo chmod +777 spigot-1.11.2.jar
@@ -318,7 +318,7 @@ fi
 if [ "$2" = "1.10"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://cdn.getbukkit.org/spigot/spigot-1.10.2-R0.1-SNAPSHOT-latest.jar
 sudo chmod +777 spigot-1.10.2-R0.1-SNAPSHOT-latest.jar
@@ -327,7 +327,7 @@ fi
 if [ "$2" = "1.9"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://cdn.getbukkit.org/spigot/spigot-1.9.4-R0.1-SNAPSHOT-latest.jar
 sudo chmod +777 spigot-1.9.4-R0.1-SNAPSHOT-latest.jar
@@ -336,7 +336,7 @@ fi
 if [ "$2" = "1.8"];
 then
 cd /home/servers/spigot
-mkdir $3
+sudo mkdir $3
 cd $3
 wget -q https://cdn.getbukkit.org/spigot/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar
 sudo chmod +777 spigot-1.8.8-R0.1-SNAPSHOT-latest.jar
@@ -349,7 +349,7 @@ then
 if [ "$2" = "1.19"];
 then
 cd /home/servers/vanilla
-mkdir $3
+sudo mkdir $3
 cd $3
 sudo wget -q https://github.com/sebi-vscode2/FastMc/raw/master/vanilla/server.jar
 sudo chmod +777 server.jar
